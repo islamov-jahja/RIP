@@ -12600,11 +12600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repositories\\RipBackend\\RipBackend\\RipBackend.csproj",
+      "projectUniqueName": "E:\\repositories\\RIP\\RipBackend\\RipBackend\\RipBackend.csproj",
       "projectName": "RipBackend",
-      "projectPath": "E:\\repositories\\RipBackend\\RipBackend\\RipBackend.csproj",
+      "projectPath": "E:\\repositories\\RIP\\RipBackend\\RipBackend\\RipBackend.csproj",
       "packagesPath": "F:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\repositories\\RipBackend\\RipBackend\\obj\\",
+      "outputPath": "E:\\repositories\\RIP\\RipBackend\\RipBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

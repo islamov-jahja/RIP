@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RipBackend.Models.Marka;
 
 namespace RipBackend.Controllers
 {
@@ -11,5 +12,8 @@ namespace RipBackend.Controllers
     [ApiController]
     public class CarMarkController : ControllerBase
     {
+        public void get()
+        {
+        }
     }
 }
