@@ -1,0 +1,14 @@
+E:\repositories\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.deps.json
+E:\repositories\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.runtimeconfig.json
+E:\repositories\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.runtimeconfig.dev.json
+E:\repositories\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.dll
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.csprojAssemblyReference.cache
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.csproj.CoreCompileInputs.cache
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.RazorAssemblyInfo.cache
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.RazorAssemblyInfo.cs
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.AssemblyInfoInputs.cache
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.AssemblyInfo.cs
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.RazorTargetAssemblyInfo.cache
+E:\repositories\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.pdb
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.dll
+E:\repositories\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.pdb
