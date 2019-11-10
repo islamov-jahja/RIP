@@ -7,5 +7,8 @@ namespace RipBackend.Models.Model
 {
     public class Model
     {
+        public int id { get; set; }
+        public int idMark { get; set; }
+        public string name { get; set; }
     }
 }

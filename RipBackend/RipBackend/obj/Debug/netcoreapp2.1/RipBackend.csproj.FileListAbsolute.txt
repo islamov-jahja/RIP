@@ -18,7 +18,6 @@ E:\repositories\RIP\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.run
 E:\repositories\RIP\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.dll
 E:\repositories\RIP\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\RipBackend.pdb
 E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.csprojAssemblyReference.cache
-E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.csproj.CoreCompileInputs.cache
 E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.RazorAssemblyInfo.cache
 E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.RazorAssemblyInfo.cs
 E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.AssemblyInfoInputs.cache
@@ -26,3 +25,6 @@ E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.Ass
 E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.RazorTargetAssemblyInfo.cache
 E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.dll
 E:\repositories\RIP\RipBackend\RipBackend\obj\Debug\netcoreapp2.1\RipBackend.pdb
+E:\repositories\RIP\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\repositories\RIP\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\appsettings.json
+E:\repositories\RIP\RipBackend\RipBackend\bin\Debug\netcoreapp2.1\Properties\launchSettings.json

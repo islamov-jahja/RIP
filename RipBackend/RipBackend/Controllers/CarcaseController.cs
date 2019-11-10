@@ -15,6 +15,7 @@ namespace RipBackend.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            Console.WriteLine("he");
             return new string[] { "value1", "value2" };
         }
 

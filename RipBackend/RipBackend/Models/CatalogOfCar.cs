@@ -18,7 +18,7 @@ namespace RipBackend.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=Catalog;Integrated Security=True");
         }
     }
 }
