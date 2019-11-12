@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Runtime.Serialization.Json;
+using RipBackend.Models.User;
+using RipBackend.Services.Helpers;
+using RipBackend.Persistence.Repositories.UserRepository;
+using System.ComponentModel.DataAnnotations;
 
 namespace RipBackend.Controllers
 {
@@ -15,9 +19,27 @@ namespace RipBackend.Controllers
     {
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string json)
+        public ActionResult<string> Post([FromBody] User user)
         {
-            Console.WriteLine(json);
+            if (ModelState.IsValid)
+            {
+                var userRep = new UserReposotory();
+                user.isAdmin = false;
+                user.password = Privacy.GetHashedPassword(user.password);
+                if (!userRep.IsSet(user.email))
+                {
+                    userRep.Add(user);
+                }
+                else
+                {
+                    return BadRequest("Такой пользователь сушествует");
+                }
+                
+                return Ok();
+            }else
+            {
+                return BadRequest();
+            }
         }
     }
 }

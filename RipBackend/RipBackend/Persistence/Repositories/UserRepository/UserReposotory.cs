@@ -13,7 +13,8 @@ namespace RipBackend.Persistence.Repositories.UserRepository
         {
             using (CatalogOfCar catalog = new CatalogOfCar())
             {
-                catalog.User.Add(user);
+                catalog.User.AddAsync(user);
+                catalog.SaveChanges();
             }
         }
 
@@ -21,10 +22,16 @@ namespace RipBackend.Persistence.Repositories.UserRepository
         {
             using (CatalogOfCar catalog = new CatalogOfCar())
             {
-                var user = catalog.User
-                    .Single(u => u.email == email);
+                try
+                {
+                    var user = catalog.User
+                        .Single(u => u.email == email);
 
-                return user != null ? true : false;
+                    return true;
+                }catch(Exception err)
+                {
+                    return false;
+                }
             }
         }
     }
