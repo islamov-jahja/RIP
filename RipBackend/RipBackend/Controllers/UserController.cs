@@ -18,6 +18,33 @@ namespace RipBackend.Controllers
     public class UserController : ControllerBase
     {
         // POST api/values
+        [HttpPost("login")]
+        public ActionResult<string> Post([FromBody] LoginForm loginForm)
+        {
+            if (ModelState.IsValid)
+            {
+                var userRep = new UserReposotory();
+                loginForm.password = Privacy.GetHashedPassword(loginForm.password);
+
+                if(!userRep.IsSet(loginForm)){
+                    return BadRequest("неверный логин или пароль");
+                }
+
+                var user = userRep.GetUser(loginForm);
+
+                var response = new {
+                    access_token = Privacy.GetToken(user),
+                    user_name = user.name
+                };
+
+                return new JsonResult(response);
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
         [HttpPost]
         public ActionResult<string> Post([FromBody] User user)
         {
